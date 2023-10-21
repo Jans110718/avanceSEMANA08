@@ -12,8 +12,8 @@ import com.empresa.repository.EmpleadoRepository;
 @Service
 public class EmpleadoServiceImpl implements EmpleadoService{
 
-	@Autowired
-	private EmpleadoRepository repository;
+	@Autowired 
+	private EmpleadoRepository  repository;
 	
 	@Override
 	public Empleado insertaEmpleado(Empleado obj) {
@@ -42,7 +42,8 @@ public class EmpleadoServiceImpl implements EmpleadoService{
 
 	@Override
 	public List<Empleado> listaPorNombreApellidoIgualActualiza(String nombre, String apellido, int idEmpleado) {
-		return repository.listaEmpleadoNombreApellidoIgualActualiza(nombre, apellido, idEmpleado);
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
